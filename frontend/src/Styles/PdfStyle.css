@@ -1,0 +1,21 @@
+.caption-top{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    padding-left: 100px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.Download-btn{
+    width: 400%;
+    background-image: linear-gradient(to right,white, rgba(158, 102, 73, 1));
+    color: black;
+    margin-top:100px;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: auto;
+
+}
