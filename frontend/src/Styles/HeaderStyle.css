@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+body{ 
+    font-family: cursive;
+    background-image: url(../Assets/p8.png);
+    position: cover;
+
+    left: 0px;
+    top: 0px;
+}
+
+.h4{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.input-group{
+
+    position: absolute;
+    width: 348.76px;
+    height: 52.74px;
+    left: 933px;
+    top: 90px;
+
+  }
+
+.card{
+    width: 18rem;
+}
+
+.button{
+    background-color: #897853; /* Green */
+    border-radius: 25px;
+    color: black;
+    margin-left: 130px;
+    padding: 15px 80px;
+}
+
+.btnH{
+    background-color: #E5CB9F;
+    color: black;
+    border: 2px solid #E5CB9F;
+    padding: 8px 25px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn1{
+    background-color: #827397; /* Green */
+    border-color: #827397;
+    border-radius: 25px;
+    color: black;
+    padding: 10px 30px;
+}
+
+.btn2{
+    background-color: #E5CB9F;
+    color: black;
+    border: 2px solid #E5CB9F;
+    padding: 8px 25px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 450px;
+}
+
+.rounded-circle{
+    margin-left: 390px;
+}
+
+.header{
+    margin-left: 350px;
+}
+
+.card1{
+    padding: 20px 100px;
+}
+
+.card-header{
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.6) 0%, rgba(3, 3, 3, 0.198) 100%);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-body1{
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    padding: 10px 25px;
+}
+
+.card-title1{
+    color: #5C3D2E
+}
+
+.img1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+.img1:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+table{
+    border: 5px solid black;
+}
+
+/* .Header-Text{
+    text-align: center;
+    margin-left: 250px;
+} */
+
