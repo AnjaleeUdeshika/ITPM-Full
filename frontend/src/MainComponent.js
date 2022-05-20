@@ -15,6 +15,10 @@ import EventCard from './Components/EventCard-test';
 import AAlbum from './Components/AAlbum';
 import Card from './Components/Card-test';
 import SearchBar from './Components/SearchBar';
+import photographer from './Components/photographer';
+import AddAppointment from './Components/AddAppointment';
+import EditAppointment from "./Components/edit-appointment.component";
+import AppointmentsList from "./Components/appointments-list.component";
 
 
 function MainComponent() {
@@ -41,6 +45,12 @@ function MainComponent() {
             <Route path="/albumspdf" exact component={Pdf} />
         
             <Redirect to="/myportfolio" />
+			
+			<Route path="/home" exact component={Home}/>
+			<Route path="/photographer" exact component={photographer}/> 
+			<Route path="/add" exact component={AddAppointment}/>
+			<Route path="/get" exact component={AppointmentsList} />
+			<Route path="/edit/:id" exact component={EditAppointment} />
             
             </Switch>
             <Footer />
